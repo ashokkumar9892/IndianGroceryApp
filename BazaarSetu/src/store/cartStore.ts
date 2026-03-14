@@ -60,6 +60,6 @@ export const useCartStore = create<CartStore>()(
 
       getStoreIds: () => [...new Set(get().items.map(i => i.storeId))],
     }),
-    { name: 'bs_cart' }
+    { name: 'ak_cart' }
   )
 );

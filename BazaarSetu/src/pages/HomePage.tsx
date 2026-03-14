@@ -42,7 +42,7 @@ const HomePage: React.FC = () => {
             <span className="text-[#f57314]">Grocery Connection</span>
           </h1>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto mb-8">
-            BazaarSetu bridges you with the best Indian grocery stores nearby — compare prices, discover
+            ApnaKirana bridges you with the best Indian grocery stores nearby — compare prices, discover
             authentic products, and schedule convenient pickups.
           </p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
@@ -134,7 +134,7 @@ const HomePage: React.FC = () => {
       <section className="bg-white border-t border-gray-100 py-12 px-4">
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-8">
-            <h2 className="text-2xl font-bold text-gray-900">Why BazaarSetu?</h2>
+            <h2 className="text-2xl font-bold text-gray-900">Why ApnaKirana?</h2>
             <p className="text-sm text-gray-500 mt-2">Everything you need for a seamless grocery experience</p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">

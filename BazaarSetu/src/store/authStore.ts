@@ -21,7 +21,7 @@ export const useAuthStore = create<AuthStore>()(
       error: null,
 
       login: (email, password) => {
-        const allUsers = [...MOCK_USERS, ...JSON.parse(localStorage.getItem('bs_registered_users') || '[]')];
+        const allUsers = [...MOCK_USERS, ...JSON.parse(localStorage.getItem('ak_registered_users') || '[]')];
         const user = allUsers.find(u => u.email.toLowerCase() === email.toLowerCase() && u.password === password);
         if (user) {
           set({ currentUser: user, isAuthenticated: true, error: null });
@@ -36,7 +36,7 @@ export const useAuthStore = create<AuthStore>()(
       },
 
       register: (name, email, password, phone) => {
-        const allUsers = [...MOCK_USERS, ...JSON.parse(localStorage.getItem('bs_registered_users') || '[]')];
+        const allUsers = [...MOCK_USERS, ...JSON.parse(localStorage.getItem('ak_registered_users') || '[]')];
         const exists = allUsers.some(u => u.email.toLowerCase() === email.toLowerCase());
         if (exists) {
           set({ error: 'An account with this email already exists.' });
@@ -51,15 +51,15 @@ export const useAuthStore = create<AuthStore>()(
           role: 'customer',
           createdAt: new Date().toISOString().split('T')[0],
         };
-        const registered = JSON.parse(localStorage.getItem('bs_registered_users') || '[]');
+        const registered = JSON.parse(localStorage.getItem('ak_registered_users') || '[]');
         registered.push(newUser);
-        localStorage.setItem('bs_registered_users', JSON.stringify(registered));
+        localStorage.setItem('ak_registered_users', JSON.stringify(registered));
         set({ currentUser: newUser, isAuthenticated: true, error: null });
         return true;
       },
 
       clearError: () => set({ error: null }),
     }),
-    { name: 'bs_auth', partialize: (s) => ({ currentUser: s.currentUser, isAuthenticated: s.isAuthenticated }) }
+    { name: 'ak_auth', partialize: (s) => ({ currentUser: s.currentUser, isAuthenticated: s.isAuthenticated }) }
   )
 );

@@ -45,7 +45,7 @@ export default function KeeperLayout({ children }: Props) {
           </button>
           <div className="flex items-center gap-2">
             <span className="text-lg">🛒</span>
-            <span className="font-bold text-gray-900 text-sm">BazaarSetu Keeper</span>
+            <span className="font-bold text-gray-900 text-sm">ApnaKirana Keeper</span>
           </div>
         </div>
 

@@ -45,6 +45,6 @@ export const useInventoryStore = create<InventoryStore>()(
         }
       },
     }),
-    { name: 'bs_inventory' }
+    { name: 'ak_inventory' }
   )
 );

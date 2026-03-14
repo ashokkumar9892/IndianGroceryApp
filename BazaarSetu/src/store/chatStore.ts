@@ -90,7 +90,7 @@ export const useChatStore = create<ChatStore>()(
             id: `msg-${Date.now() + 1}`,
             sessionId: sessionId!,
             sender: 'ai',
-            senderName: 'BazaarSetu Assistant',
+            senderName: 'ApnaKirana Assistant',
             content: aiContent,
             timestamp: new Date().toISOString(),
           };
@@ -130,6 +130,6 @@ export const useChatStore = create<ChatStore>()(
         });
       },
     }),
-    { name: 'bs_chat' }
+    { name: 'ak_chat' }
   )
 );

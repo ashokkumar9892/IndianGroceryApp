@@ -28,7 +28,7 @@ function MessageBubble({ msg }: { msg: ChatMessage }) {
       <div className={`max-w-[75%] flex flex-col ${isUser ? 'items-end' : 'items-start'}`}>
         <span className="text-xs text-gray-400 mb-0.5 px-1">
           {isUser && msg.senderName}
-          {isAI && 'BazaarSetu AI'}
+          {isAI && 'ApnaKirana AI'}
           {isKeeper && `Store: ${msg.senderName}`}
         </span>
         <div

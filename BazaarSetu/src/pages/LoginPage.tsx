@@ -61,10 +61,10 @@ const LoginPage: React.FC = () => {
           {/* Header */}
           <div className="bg-gradient-to-r from-[#f57314] to-orange-500 px-8 py-8 text-center">
             <div className="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-white/20 backdrop-blur mb-3">
-              <span className="text-3xl font-extrabold text-white tracking-tight">बS</span>
+              <span className="text-3xl font-extrabold text-white tracking-tight">AK</span>
             </div>
-            <h1 className="text-2xl font-extrabold text-white">BazaarSetu</h1>
-            <p className="text-orange-100 text-sm mt-1">Your Indian Grocery Bridge</p>
+            <h1 className="text-2xl font-extrabold text-white">ApnaKirana</h1>
+            <p className="text-orange-100 text-sm mt-1">Your Indian Grocery Store</p>
           </div>
 
           {/* Form */}

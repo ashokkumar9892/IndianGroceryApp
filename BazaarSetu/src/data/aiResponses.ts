@@ -74,7 +74,7 @@ export const AI_RESPONSES: AIResponse[] = [
   },
   {
     keywords: ['store', 'stores', 'locations', 'which store'],
-    response: 'BazaarSetu connects you with 4 Indian grocery stores in the Bay Area: 🏪 Spice Garden (Fremont) — widest selection, 🏪 Desi Bazaar (San Jose) — best prices, 🏪 Kerala Kitchen (Sunnyvale) — South Indian specialist, 🏪 Punjab Palace (Santa Clara) — North Indian specialist. Visit the home page to browse all stores! 🗺️',
+    response: 'ApnaKirana connects you with 4 Indian grocery stores in the Bay Area: 🏪 Spice Garden (Fremont) — widest selection, 🏪 Desi Bazaar (San Jose) — best prices, 🏪 Kerala Kitchen (Sunnyvale) — South Indian specialist, 🏪 Punjab Palace (Santa Clara) — North Indian specialist. Visit the home page to browse all stores! 🗺️',
   },
   {
     keywords: ['mustard seeds', 'rai', 'tempering', 'tadka'],
@@ -88,6 +88,6 @@ export const AI_RESPONSES: AIResponse[] = [
 
 export const FALLBACK_RESPONSES = [
   'I can help you find the perfect Indian groceries! Try asking me about specific items like "basmati rice", "toor dal", "ghee", or "sambar powder". You can also ask about pickup times, price comparison, or which stores carry specific items. 🛒',
-  'Welcome to BazaarSetu! I know all about Indian groceries. Ask me about any ingredient, brand, or cooking tip. You can also use filters on the product pages to narrow down your search. What are you looking for today? 🌿',
+  'Welcome to ApnaKirana! I know all about Indian groceries. Ask me about any ingredient, brand, or cooking tip. You can also use filters on the product pages to narrow down your search. What are you looking for today? 🌿',
   'Interesting question! I specialize in Indian grocery knowledge. Try asking about specific products, cooking uses, brands we carry, store locations, or how to place orders. I\'m here to help! 😊',
 ];

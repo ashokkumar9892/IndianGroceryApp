@@ -25,11 +25,11 @@ export default function Navbar() {
           {/* Logo */}
           <Link to="/" className="flex items-center gap-2 group">
             <div className="w-9 h-9 bg-gradient-to-br from-saffron-500 to-saffron-600 rounded-lg flex items-center justify-center shadow-sm">
-              <span className="text-white font-bold text-sm">बS</span>
+              <span className="text-white font-bold text-sm">AK</span>
             </div>
             <div>
-              <span className="font-bold text-xl text-gray-900">Bazaar</span>
-              <span className="font-bold text-xl text-saffron-500">Setu</span>
+              <span className="font-bold text-xl text-gray-900">Apna</span>
+              <span className="font-bold text-xl text-saffron-500">Kirana</span>
             </div>
           </Link>
 

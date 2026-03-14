@@ -42,7 +42,7 @@ export default function ChatWindow() {
         <div className="flex items-center gap-2">
           <Bot size={20} />
           <div>
-            <p className="text-sm font-semibold leading-none">BazaarSetu Assistant</p>
+            <p className="text-sm font-semibold leading-none">ApnaKirana Assistant</p>
             <div className="flex items-center gap-1 mt-0.5">
               <span className="w-2 h-2 rounded-full bg-green-300 animate-pulse" />
               <span className="text-xs text-orange-100">Online</span>
@@ -64,7 +64,7 @@ export default function ChatWindow() {
           <div className="flex flex-col items-center justify-center h-full text-center text-gray-400 px-4">
             <div className="text-4xl mb-3">🛒</div>
             <p className="text-sm font-medium text-gray-500">
-              Welcome to BazaarSetu!
+              Welcome to ApnaKirana!
             </p>
             <p className="text-xs mt-1">
               Ask me anything about products, stores, or your orders.

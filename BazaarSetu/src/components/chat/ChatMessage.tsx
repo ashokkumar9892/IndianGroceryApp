@@ -33,7 +33,7 @@ export default function ChatMessage({ message }: Props) {
         {/* Sender label */}
         <span className="text-xs text-gray-500 mb-0.5 px-1">
           {isUser && message.senderName}
-          {isAI && 'BazaarSetu AI'}
+          {isAI && 'ApnaKirana AI'}
           {isKeeper && `Store: ${message.senderName}`}
         </span>
 
